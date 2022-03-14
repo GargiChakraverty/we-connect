@@ -19,27 +19,16 @@
 </head>
 <body>
     <!-- Navbar  -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-5-strong">
         <div class="container-fluid">
-          <a class="navbar-brand" href="./">Teams Clone</a>
+          <a class="navbar-brand" id="app-logo" href="./">WeConnect</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <!-- <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li> -->
-            </ul>
-            <!-- <span class="navbar-text">
-              Login/ Signup
-            </span> -->
+        
+            </ul>      
           </div>
         </div>
     </nav>
@@ -47,18 +36,23 @@
     <br><br>
     <div class="container"> 
         <div class="row">
-            <div class="col-md-6">
-                <img src="./Images/sample.jpeg" alt="sample-image" height="100%" width="100%">
+            <div class="col-md-6">                
+                <img src="./Images/img.jpg" alt="sample-image">
             </div>
 
-            <div class="col-md-6">
-                <button type="button" id="create-btn" class="btn btn-info custom-btn">Create A Call</button><br>
-                <button type="button" id="join-btn" class="btn btn-info custom-btn">Join A Call</button>
-                <div id="join-div">
-                  <input type="text" name="meet-join-code" id="meet-join-code" placeholder="Enter Meet/ Room ID">
-                  <button id="go-to-meet" class="btn btn-info custom-btn">Go</button>
+            <div class="col-md-4 div2">
+              <h2 class="tagline">Lets Connect!</h2>
+              <div class="col-md-6" id="btn-div">              
+                <button type="button" id="create-btn" class="btn btn-outline-warning custom-btn">Create A Call</button><br>
+                <button type="button" id="join-btn" class="btn btn-outline-warning custom-btn">Join A Call</button>                
+            </div>
+            <div id="join-div">
+                  <input class="mx-3" type="text" name="meet-join-code" id="meet-join-code" placeholder="Enter Meet ID here">
+                  <!-- <button id="go-to-meet" class="btn btn-info custom-btn">Go</button> -->
+                  <button id="go-to-meet" type="button" class="btn btn-warning btn-sm custom-btn">Go</button>
                 </div>
             </div>
+            
         </div>
     </div>
     
@@ -67,7 +61,7 @@
 <style>
   #join-div{
     display: none;
-    margin: 2%;
+    /* margin: 2%; */
   }
   #meet-join-code {
     font-size: large;
