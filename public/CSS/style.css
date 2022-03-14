@@ -5,6 +5,10 @@ img {
     height: 500px;
 }
 
+body {
+    background-color: white;
+}
+
 #app-logo {
     color: #ffc107;
     font-size: 30px;
