@@ -5,10 +5,6 @@ img {
     height: 500px;
 }
 
-body {
-    background-color: white;
-}
-
 #app-logo {
     color: #ffc107;
     font-size: 30px;
@@ -130,11 +126,11 @@ video {
 
 /* everything is by design  */
 .video-div {
-    background-color: rgba(0, 0, 0, 0.705);
+    background-color: white;    
     padding: 1%;
 }
 .wb-div {
-    background-color: rgba(0, 0, 0, 0.705);
+    background-color: white;
     padding: 1%;
     overflow: scroll;
 }
@@ -152,7 +148,7 @@ video {
     display: none;
 }
 .chat-div {
-    background-color: rgba(0, 0, 0, 0.705);
+    background-color: white;
     padding: 1%;
     min-height: 75vh;
 }
