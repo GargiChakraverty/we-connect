@@ -26,14 +26,23 @@ The future version of this application will also include features like online co
 
 ## References:
 [Socket.io Documentation](https://socket.io/docs/v4/)
+
 [WebRTC Documentation](https://webrtc.org/getting-started/overview)
+
 [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
-[CKEditor] (https://ckeditor.com/ckeditor-4/)
-[CSS] (https://developer.mozilla.org/en-US/docs/Web/CSS)
-[HTML] (https://developer.mozilla.org/en-US/docs/Web/HTML)
-[Peerjs] (https://peerjs.com/docs/)
-[Agile] (https://www.atlassian.com/agile/scrum/sprints)
+
+[CKEditor](https://ckeditor.com/ckeditor-4/)
+
+[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
+[Peerjs](https://peerjs.com/docs/)
+
+[Agile](https://www.atlassian.com/agile/scrum/sprints)
+
 [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
 [Jquery](https://releases.jquery.com/) 
 
 
