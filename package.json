@@ -1,12 +1,12 @@
 {
-  "name": "engage-project",
+  "name": "WeConnect",
   "version": "1.0.0",
-  "description": "MS Teams Clone",
+  "description": "A web based video chatting application with collaborative features",
   "main": "index.js",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Abhilasha Bansal",
+  "author": "Aanchal Gupta and Gargi Chakraverty",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.6",
