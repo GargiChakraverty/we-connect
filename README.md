@@ -7,11 +7,12 @@ The future version of this application will also include features like online co
 
 ## Tech stack used:
 
-### Front End:
+### Front-End:
 - HTML5(hypertext markup language) 
 - CSS
 - JavaScript
 - Bootstrap 
+### Back-End:
 - Node.js(open source, a server-side script) 
 - Socket.IO 
 - WebRTC (Web Real-Time Communication) is a technology that allows Web apps and sites to record and selectively broadcast audio and/or video material, as well as transmit arbitrary data between browsers without the need for an intermediary.
